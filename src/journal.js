@@ -32,7 +32,6 @@ export function consonantCount(entry) {
 export function getTeaser(entry) {
   var arr = entry.split(' ');
   var output = [];
-  var count = 0;
   for(var i = 0; i < 8; i++) {
     if(arr[i].includes(".")) {
       output.push(arr[i]);
